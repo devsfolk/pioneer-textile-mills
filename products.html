@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Our Products - Yarn, Greige Fabric, Processed Fabric. High quality textile products from Pakistan.">
+    <title>Our Products | Pioneer Textile Mills</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F172A',
+                        secondary: '#334155',
+                        accent: '#F8FAFC',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        headline: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all duration-300"
+        id="header">
+        <div class="container mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-primary text-white flex items-center justify-center font-bold text-xl rounded">
+                    P</div>
+                <div class="flex flex-col">
+                    <span class="font-headline font-bold text-xl leading-none text-primary">PIONEER</span>
+                    <span class="text-xs tracking-widest text-gray-500 uppercase">Textile Mills</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="index.html"
+                    class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">Home</a>
+                <a href="about.html"
+                    class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">About Us</a>
+                <a href="products.html"
+                    class="text-sm font-medium text-primary hover:text-blue-600 transition-colors">Products</a>
+                <a href="manufacturing.html"
+                    class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">Manufacturing</a>
+                <a href="quality.html"
+                    class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">Quality</a>
+                <a href="certifications.html"
+                    class="text-sm font-medium text-gray-600 hover:text-primary transition-colors">Certifications</a>
+                <a href="contact.html"
+                    class="px-5 py-2.5 bg-primary text-white text-sm font-medium rounded hover:bg-slate-800 transition-all shadow-lg shadow-blue-900/20">Contact
+                    Us</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-primary"><i data-lucide="menu"
+                    class="w-8 h-8"></i></button>
+        </div>
+        <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-100">
+            <div class="flex flex-col p-4 space-y-4">
+                <a href="index.html" class="block font-medium text-gray-600">Home</a>
+                <a href="about.html" class="block font-medium text-gray-600">About Us</a>
+                <a href="products.html" class="block font-medium text-primary">Products</a>
+                <a href="manufacturing.html" class="block font-medium text-gray-600">Manufacturing</a>
+                <a href="quality.html" class="block font-medium text-gray-600">Quality</a>
+                <a href="certifications.html" class="block font-medium text-gray-600">Certifications</a>
+                <a href="contact.html" class="block font-medium text-primary">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="bg-primary text-white pt-32 pb-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="font-headline text-4xl md:text-5xl font-bold mb-4 animate-on-scroll">Product Catalogue</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto animate-on-scroll delay-100">Export-quality textiles
+                crafted with precision.</p>
+        </div>
+    </div>
+
+    <!-- Category Navigation -->
+    <div class="sticky top-20 z-40 bg-white border-b shadow-sm overflow-x-auto whitespace-nowrap">
+        <div class="container mx-auto px-6 flex justify-center gap-8 py-4">
+            <a href="#yarn" class="text-sm font-bold text-gray-500 hover:text-primary uppercase tracking-wider">Yarn</a>
+            <a href="#fabric" class="text-sm font-bold text-gray-500 hover:text-primary uppercase tracking-wider">Greige
+                Fabric</a>
+            <a href="#finished"
+                class="text-sm font-bold text-gray-500 hover:text-primary uppercase tracking-wider">Finished Fabric</a>
+        </div>
+    </div>
+
+    <main class="container mx-auto px-6 py-12 space-y-24">
+
+        <!-- YARN -->
+        <section id="yarn" class="scroll-mt-32">
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-8">
+                <div class="animate-on-scroll">
+                    <h2 class="font-headline text-3xl font-bold text-primary mb-4">Spinning / Yarn</h2>
+                    <p class="text-gray-600 mb-6">Our spinning units produce a wide variety of specialized yarns,
+                        ranging from 100% Cotton to Poly-Cotton Blends. We ensure high tensile strength and uniformity
+                        suitable for high-speed weaving and knitting.</p>
+                    <a href="contact.html" class="text-primary font-bold hover:underline">Request Specs Sheet &rarr;</a>
+                </div>
+                <div class="animate-on-scroll delay-100">
+                    <img src="https://images.unsplash.com/photo-1727027282611-ced15b0855d0?auto=format&fit=crop&q=80&w=800"
+                        class="rounded-lg shadow-lg" alt="Yarn Spools">
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow border overflow-hidden animate-on-scroll delay-200">
+                <table class="w-full text-sm text-left text-gray-500">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3">Product Type</th>
+                            <th class="px-6 py-3">Count Range</th>
+                            <th class="px-6 py-3">Blend Ratio</th>
+                            <th class="px-6 py-3">End Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">Carded Cotton</td>
+                            <td class="px-6 py-4">NE 10/1 - NE 40/1</td>
+                            <td class="px-6 py-4">100% Cotton</td>
+                            <td class="px-6 py-4">Denim, Towels, Bed sheets</td>
+                        </tr>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">Combed Cotton</td>
+                            <td class="px-6 py-4">NE 20/1 - NE 80/1</td>
+                            <td class="px-6 py-4">100% Cotton</td>
+                            <td class="px-6 py-4">High-end Bedding, Apparel</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-6 py-4 font-medium text-gray-900">Poly-Cotton (PC)</td>
+                            <td class="px-6 py-4">NE 10/1 - NE 60/1</td>
+                            <td class="px-6 py-4">50/50, 65/35, 52/48</td>
+                            <td class="px-6 py-4">Workwear, Institutional Sheets</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- GREIGE FABRIC -->
+        <section id="fabric" class="scroll-mt-32">
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-8">
+                <div class="order-2 md:order-1 animate-on-scroll delay-100">
+                    <img src="https://images.unsplash.com/photo-1673168871206-6195d19ac1d7?auto=format&fit=crop&q=80&w=800"
+                        class="rounded-lg shadow-lg" alt="Greige Fabric">
+                </div>
+                <div class="order-1 md:order-2 animate-on-scroll">
+                    <h2 class="font-headline text-3xl font-bold text-primary mb-4">Greige Fabric</h2>
+                    <p class="text-gray-600 mb-6">Weaving excellence on Air-Jet and Sulzer looms. Our greige fabric is
+                        known for its flawlessness, making it the perfect base for dyeing and printing.</p>
+                </div>
+            </div>
+            <!-- Spec Table -->
+            <div class="bg-white rounded-lg shadow border overflow-hidden animate-on-scroll delay-200">
+                <table class="w-full text-sm text-left text-gray-500">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3">Weave Type</th>
+                            <th class="px-6 py-3">Width</th>
+                            <th class="px-6 py-3">Thread Counts (Typical)</th>
+                            <th class="px-6 py-3">GSM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">Plain / Percale</td>
+                            <td class="px-6 py-4">Up to 126"</td>
+                            <td class="px-6 py-4">T-120 to T-300</td>
+                            <td class="px-6 py-4">90 - 150</td>
+                        </tr>
+                        <tr class="bg-white border-b">
+                            <td class="px-6 py-4 font-medium text-gray-900">Satin / Stripe Satin</td>
+                            <td class="px-6 py-4">Up to 126"</td>
+                            <td class="px-6 py-4">T-200 to T-600</td>
+                            <td class="px-6 py-4">110 - 180</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="px-6 py-4 font-medium text-gray-900">Twill / Drill</td>
+                            <td class="px-6 py-4">Up to 72"</td>
+                            <td class="px-6 py-4">16x12 / 108x56</td>
+                            <td class="px-6 py-4">200 - 300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FINISHED -->
+        <section id="finished" class="scroll-mt-32">
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-8">
+                <div class="animate-on-scroll">
+                    <h2 class="font-headline text-3xl font-bold text-primary mb-4">Finished Fabric</h2>
+                    <p class="text-gray-600 mb-6">Our processed fabrics undergo rigorous treatments including singeing,
+                        desizing, bleaching, mercerizing, and dyeing.</p>
+                </div>
+                <div class="animate-on-scroll delay-100">
+                    <img src="https://images.unsplash.com/photo-1761808070278-dd73772be230?auto=format&fit=crop&q=80&w=800"
+                        class="rounded-lg shadow-lg" alt="Finished Fabric">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 border-b border-gray-800 pb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="#" class="inline-block mb-6"><span class="font-headline font-bold text-2xl">PIONEER TEXTILE
+                            MILLS</span></a>
+                    <p class="text-gray-400 max-w-sm">Quality, Sustainability, Innovation.</p>
+                </div>
+                <div>
+                    <h4 class="font-headline font-bold text-lg mb-6">Quick Links</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href="about.html" class="hover:text-white">About</a></li>
+                        <li><a href="products.html" class="hover:text-white">Products</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-headline font-bold text-lg mb-6">Contact</h4>
+                    <ul class="space-y-4 text-gray-400">
+                        <li>Plot No H78 Sector 22, Lahore</li>
+                        <li>pioneer.textile.mills1@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2024 Pioneer Textile Mills. Made in Pakistan.</p>
+            </div>
+        </div>
+    </footer>
+    <script>lucide.createIcons();</script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
